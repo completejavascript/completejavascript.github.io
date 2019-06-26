@@ -1,0 +1,15 @@
+.app-sidebar {
+  width: 25rem;
+  left: -25rem;
+  z-index: 1000;
+}
+
+.app-sidebar.responsive {
+  left: 0;
+}
+
+@media (min-width: 800px) {
+  .app-sidebar {
+    left: 0;
+  }
+} 

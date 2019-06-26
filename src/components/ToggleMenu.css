@@ -1,0 +1,8 @@
+.app-toggle-menu {
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+.app-toggle-menu.responsive {
+  left: 26.5rem
+}
