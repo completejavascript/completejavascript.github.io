@@ -1,6 +1,7 @@
 import React from 'react';
 import { IconDownload } from './Icons';
 import SectionTitle from './SectionTitle';
+import SectionDescription from './SectionDescription';
 
 const SkillBadge = ({ subject, percentage }) => (
   <div className={`border border-default inline-block margin-right-half 
@@ -32,10 +33,10 @@ const About = () => {
   return (
     <section>
       <div className="container-full row" id="about">
-        <div className="col-xs-12 margin-top-2">
+        <div className="col-xs-12 margin-top-3">
           <SectionTitle title="About" />
-          <p className="text-description text-center">A little bit about me.</p>
-          <div className="padding-left-3 padding-right-3 padding-top">
+          <SectionDescription content="A little bit about me."/>
+          <div className="padding-left-3 padding-right-3">
             <p>
               Hi, My name is <strong className="color-red">Lam Pham</strong> from Vietnam. I am a Software Engineer with a focus on <strong className="color-red">C/C++</strong>.
               Beside, I am really passionate about <strong className="color-blue">JavaScript</strong> and
@@ -64,7 +65,7 @@ const About = () => {
               I enjoy instrument musical. In my free time, I usually play Ukulele. And, I like Street Workout. I am training it four times a week to get fit and healthy.
               Thanks for visiting my website!
             </p>
-            <p className="text-center">
+            <p className="text-center margin-bottom-3">
               <a target="_blank" rel="noopener noreferrer" href="/cv/LamPham.pdf" className="btn btn-primary" id="download-cv">
                 <IconDownload color="#FFF" /><strong className="padding-left-half">MY CV</strong>
               </a>

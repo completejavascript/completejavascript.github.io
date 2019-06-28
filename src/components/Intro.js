@@ -8,7 +8,7 @@ const Intro = () => {
           <h1 className="text-uppercase text-title"><strong>I'm Lam Pham.</strong></h1>
           <p className="margin-bottom-3">Software Engineer, Web Developer, JavaScript Lover &amp;
             Blogger @<a target="_blank" rel="noopener noreferrer" href="https://completejavascript.com/">completejavascript</a></p>
-          <div>
+          <div className="margin-bottom-2">
             <a href="#about" className="btn btn-primary margin-half"><strong>About</strong></a>
             <a href="#contact" className="btn btn-primary-inverse margin-half border-2"><strong>Contact</strong></a>
           </div>
