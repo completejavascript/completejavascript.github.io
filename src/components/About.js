@@ -1,8 +1,9 @@
 import React from 'react';
 import { IconDownload } from './Icons';
+import SectionTitle from './SectionTitle';
 
-const SkillBadge = ({ borderColor, subject, percentage }) => (
-  <div className={`border border-color-${borderColor} inline-block margin-right-half 
+const SkillBadge = ({ subject, percentage }) => (
+  <div className={`border border-default inline-block margin-right-half 
     margin-bottom-half padding-left-half padding-right-half`}>
     {subject}{" "}{percentage}
   </div>
@@ -10,20 +11,20 @@ const SkillBadge = ({ borderColor, subject, percentage }) => (
 
 const Skills = () => (
   <div className="margin-bottom">
-    <SkillBadge borderColor="red" subject="C/C++" percentage={90} />
-    <SkillBadge borderColor="blue" subject="Algorithm" percentage={90} />
-    <SkillBadge borderColor="red" subject="JavaScript" percentage={85} />
-    <SkillBadge borderColor="blue" subject="Java &amp; Android" percentage={80} />
-    <SkillBadge borderColor="red" subject="HTML5 &amp; CSS3" percentage={80} />
-    <SkillBadge borderColor="blue" subject="Git &amp; GitHub" percentage={90} />
-    <SkillBadge borderColor="red" subject="ReactJS" percentage={95} />
-    <SkillBadge borderColor="blue" subject="Gatsby" percentage={80} />
-    <SkillBadge borderColor="red" subject="AngularJS" percentage={75} />
-    <SkillBadge borderColor="blue" subject="NodeJS &amp; ExpressJS" percentage={80} />
-    <SkillBadge borderColor="red" subject="Bootstrap" percentage={70} />
-    <SkillBadge borderColor="blue" subject="jQuery" percentage={85} />
-    <SkillBadge borderColor="red" subject="Mocha &amp; Chai" percentage={65} />
-    <SkillBadge borderColor="blue" subject="MongoDB &amp; Mongoose" percentage={80} />
+    <SkillBadge subject="C/C++" percentage={90} />
+    <SkillBadge subject="Algorithm" percentage={90} />
+    <SkillBadge subject="JavaScript" percentage={85} />
+    <SkillBadge subject="Java &amp; Android" percentage={80} />
+    <SkillBadge subject="HTML5 &amp; CSS3" percentage={80} />
+    <SkillBadge subject="Git &amp; GitHub" percentage={90} />
+    <SkillBadge subject="ReactJS" percentage={95} />
+    <SkillBadge subject="Gatsby" percentage={80} />
+    <SkillBadge subject="AngularJS" percentage={75} />
+    <SkillBadge subject="NodeJS &amp; ExpressJS" percentage={80} />
+    <SkillBadge subject="Bootstrap" percentage={70} />
+    <SkillBadge subject="jQuery" percentage={85} />
+    <SkillBadge subject="Mocha &amp; Chai" percentage={65} />
+    <SkillBadge subject="MongoDB &amp; Mongoose" percentage={80} />
   </div>
 )
 
@@ -32,7 +33,7 @@ const About = () => {
     <section>
       <div className="container-full row" id="about">
         <div className="col-xs-12 margin-top-2">
-          <h2 className="text-uppercase text-center"><strong>About</strong></h2>
+          <SectionTitle title="About" />
           <p className="text-description text-center">A little bit about me.</p>
           <div className="padding-left-3 padding-right-3 padding-top">
             <p>
