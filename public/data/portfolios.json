@@ -1,0 +1,130 @@
+{
+  "projects": [
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-tribute-page/",
+      "link-img": "./res/fcc-build-tribute-page.png",
+      "alt-img": "Build a tribute page project image",
+      "title": "Tribute Page",
+      "description": "Tribute Page for Brendan Eich - Founder of JavaScript",
+      "tags": "Bootstrap, JQuery",
+      "link-wiki": "https://github.com/completejavascript/fcc-tribute-page"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-personal-portfolio/",
+      "link-img": "./res/fcc-build-personal-portfolio.png",
+      "alt-img": "Build a personal portfolio image",
+      "title": "Personal Portfolio",
+      "description": "Personal Portfolio Landing Page for Sharing Personal Infomation, Skills, Projects,...",
+      "tags": "JQuery, Mustache.js",
+      "link-wiki": "https://github.com/completejavascript/fcc-personal-portfolio"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-random-quote-machine/",
+      "link-img": "./res/fcc-build-random-quote-machine.png",
+      "alt-img": "Build a random quote machine",
+      "title": "Random Quote Machine",
+      "description": "Machine for Showing Random Quote, Sharing on Twitter, Tumblr and Facebook Comment Plugin Embedded",
+      "tags": "JQuery, Forismatic API",
+      "link-wiki": "https://github.com/completejavascript/fcc-random-quote-machine"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-local-weather/",
+      "link-img": "./res/fcc-show-local-weather.png",
+      "alt-img": "Show local weather",
+      "title": "Weather App",
+      "description": "Showing the Local Weather on Currently, Next 48 Hours and Next 7 Days",
+      "tags": "JQuery, DarkSky API, Skycons",
+      "link-wiki": "https://github.com/completejavascript/fcc-local-weather"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-wikipedia-viewer/",
+      "link-img": "./res/fcc-build-wikipedia-viewer.png",
+      "alt-img": "Wikipedia Viewer",
+      "title": "Wikipedia Viewer",
+      "description": "Search Something on Wikipedia.org or View a Random Wikipedia Article",
+      "tags": "ES6, Vanilla js, Wikipedia API",
+      "link-wiki": "https://github.com/completejavascript/fcc-wikipedia-viewer"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-the-twitchtv-json-api/",
+      "link-img": "./res/fcc-the-twitchtv-json-api.png",
+      "alt-img": "Twitchtv JSON API",
+      "title": "Use the Twitch.tv JSON API",
+      "description": "A simple Twitch app displaying channel streaming status using Twitch.tv JSON API",
+      "tags": "ES6, jQuery, Twitch.tv API",
+      "link-wiki": "https://github.com/completejavascript/fcc-the-twitchtv-json-api"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/find-dog-you-love/",
+      "link-img": "./res/find-dog-you-love.png",
+      "alt-img": "Find Dog You Love",
+      "title": "Find Dog You Love",
+      "description": "List all Dog Breeds Images using Dog.CEO API. So people, who love dogs, can find a dog they love easily",
+      "tags": "ES6, jQuery, Dog API",
+      "link-wiki": "https://github.com/completejavascript/find-dog-you-love"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/markdown-editor/",
+      "link-img": "./res/markdown-editor.png",
+      "alt-img": "Markdown Editor",
+      "title": "Markdown Editor",
+      "description": "A very simple but useful Markdown Editor with CodeMirror, Markedjs and Create-react-app",
+      "tags": "React, CodeMirror, Markedjs, Create-react-app",
+      "link-wiki": "https://github.com/completejavascript/markdown-editor"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/drum-machine/",
+      "link-img": "./res/drum-machine.png",
+      "alt-img": "Drum machine",
+      "title": "Drum Machine",
+      "description": "A simple Drum Machine with Create-react-app",
+      "tags": "React, Create-react-app",
+      "link-wiki": "https://github.com/completejavascript/drum-machine"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/calculator/",
+      "link-img": "./res/calculator.png",
+      "alt-img": "Calculator",
+      "title": "Standard Calculator",
+      "description": "A basic Calculator with five functions for addition, subtraction, division, multiplication and modulo operation",
+      "tags": "React, Create-react-app",
+      "link-wiki": "https://github.com/completejavascript/calculator"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/pomodoro-clock/",
+      "link-img": "./res/pomodoro-clock.png",
+      "alt-img": "Pomodoro Clock",
+      "title": "Pomodoro Clock",
+      "description": "A pomodoro clock for Pomodoro Technique Timer",
+      "tags": "React, Create-react-app",
+      "link-wiki": "https://github.com/completejavascript/pomodoro-clock"
+    },
+    {
+      "link-demo": "http://thuattoan.phamvanlam.com/",
+      "link-img": "./res/algorithms-blog.png",
+      "alt-img": "Algorithms blog",
+      "title": "Algorithms Blog",
+      "description": "My Algorithms Blog in Vietnamese with Gatsby.js and Netlify",
+      "tags": "React, GatsbyJS",
+      "link-wiki": "https://github.com/completejavascript/algorithms-blog"
+    },
+    {
+      "link-demo": "https://completejavascript.now.sh/",
+      "link-img": "./res/api-complete-javascript.png",
+      "alt-img": "Complete JavaScript's Public APIs",
+      "title": "Complete JavaScript's Public APIs",
+      "description": "A collection of some public RESTful APIs from Complete JavaScript",
+      "tags": "Node.js, Express, MongoDB, Pug, Mocha, Chai, Swagger-jsdoc",
+      "link-wiki": "https://github.com/completejavascript/api-completejavascript-com"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/tic-tac-toe/",
+      "link-img": "./res/tic-tac-toe-game.png",
+      "alt-img": "Tic-Tac-Toe Game",
+      "title": "Tic-Tac-Toe Game",
+      "description": "Unbeatable Tic-Tac-Toe game using React and Minimax Algorithm",
+      "tags": "React, Create-react-app, Minimax Algorithm",
+      "link-wiki": "https://github.com/completejavascript/tic-tac-toe"
+    }
+  ]
+}
