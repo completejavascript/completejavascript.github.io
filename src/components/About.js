@@ -45,7 +45,7 @@ const About = () => {
             </p>
             <p>
               As you can see, this website is my personal portfolio webpage, which
-              I created while learning Web Development from <a href="https://www.freecodecamp.org">freeCodeCamp</a> in my spare time.
+              I created while learning Web Development from <a target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org">freeCodeCamp</a> in my spare time.
               And from now on, I am going to share my latest work consistently. Each project consists of its link for preview on Github
               and <strong className="color-red">how-to</strong>, which I explain how I created it.
               In fact, before digging deeper into freeCodeCamp or Web Development, I self-learned JavaScript, HTML5 &amp; CSS3, Bootstrap &amp; jQuery,
@@ -56,16 +56,16 @@ const About = () => {
             
             <p>Besides, I love coding and blogging. I try to code everyday and write blogs to share my experiences to people.
               Here are my blogs (in Vietnamese):
-              <span><a href="https://completejavascript.com"> Complete JavaScript</a></span> <strong>·</strong>
-              <span><a href="http://thuattoan.phamvanlam.com"> Algorithm</a></span> <strong>·</strong>
-              <span><a href="http://phamvanlam.com"> Personal Blog</a></span>.
+              <span><a target="_blank" rel="noopener noreferrer" href="https://completejavascript.com"> Complete JavaScript</a></span> <strong>·</strong>
+              <span><a target="_blank" rel="noopener noreferrer" href="http://thuattoan.phamvanlam.com"> Algorithm</a></span> <strong>·</strong>
+              <span><a target="_blank" rel="noopener noreferrer" href="http://phamvanlam.com"> Personal Blog</a></span>.
             </p>
             <p>
               I enjoy instrument musical. In my free time, I usually play Ukulele. And, I like Street Workout. I am training it four times a week to get fit and healthy.
               Thanks for visiting my website!
             </p>
             <p className="text-center">
-              <a href="/cv/LamPham.pdf" className="btn btn-primary" id="download-cv">
+              <a target="_blank" rel="noopener noreferrer" href="/cv/LamPham.pdf" className="btn btn-primary" id="download-cv">
                 <IconDownload color="#FFF" /><strong className="padding-left-half">MY CV</strong>
               </a>
             </p>

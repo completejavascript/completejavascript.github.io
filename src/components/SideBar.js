@@ -37,22 +37,22 @@ const SideBarTop = () => {
 const SideBarBottom = () => {
   return (
     <div className="flex-static text-center padding-bottom">
-      <a className="margin-right" href="https://codepen.io/completejavascript/">
+      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://codepen.io/completejavascript/">
         <IconCodepen color="#FFF" />
       </a>
-      <a className="margin-right" href="https://www.freecodecamp.org/completejavascript">
+      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/completejavascript">
         <IconFreeCodeCamp color="#FFF" />
       </a>
-      <a className="margin-right" href="https://github.com/completejavascript">
+      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://github.com/completejavascript">
         <IconGithub color="#FFF" />
       </a>
-      <a className="margin-right" href="https://www.facebook.com/completejavascript/">
+      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/completejavascript/">
         <IconFacebook color="#FFF" />
       </a>
-      <a className="margin-right" href="https://www.linkedin.com/in/completejavascript/">
+      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/completejavascript/">
         <IconLinkedinSquare color="#FFF" />
       </a>
-      <a href="https://twitter.com/CmpltJavaScript">
+      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CmpltJavaScript">
         <IconTwitter color="#FFF" />
       </a>
     </div>
