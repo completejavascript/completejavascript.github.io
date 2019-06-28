@@ -15,7 +15,7 @@ const SideBarTop = () => {
     <div className="flex-spread">
       <div className="padding margin-2">
         <img
-          className="image-responsive image-round border border-3 border-white"
+          className="image-responsive image-round border border-3 border-color-white"
           alt="Lam Pham's profile"
           src={ProfileImage}
         />

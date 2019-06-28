@@ -6,7 +6,7 @@ const ToggleMenu = (props) => {
   return (
     <button 
       onClick={props.handleClick}
-      className={`app-toggle-menu position-fixed border-2 border-color-blue 
+      className={`app-toggle-menu position-fixed border border-2 border-color-blue 
         transition ${props.isResponsive ? "responsive" : ""}`}
       >
         <IconBars color="#2196f3" />
