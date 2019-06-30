@@ -1,0 +1,43 @@
+.flex-grid {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.cell {
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.cell:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+}
+.cell-footer{
+  width: 100%;
+  background-color: #f8f8f9;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+.cell-footer .tags {
+  width: 82%;
+}
+.cell-footer .how-to{
+  width: 18%;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 800px) { 
+  .cell{
+    display: block;
+    -webkit-box-flex: 1;
+    flex: 1 1 calc(50% - 2.5rem);
+    width: 50%;
+    margin: 1.2rem;
+  }
+}

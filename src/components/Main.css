@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .app-main {
     width: calc(100% - 25rem);
   }
