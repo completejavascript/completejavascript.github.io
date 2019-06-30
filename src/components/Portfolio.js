@@ -4,6 +4,7 @@ import SectionDescription from './SectionDescription';
 import './Portfolio.css';
 
 const DATA_URL = "/data/portfolios.json";
+const NUM_PORTFOLIO_LOAD = 4
 
 const PortfolioItem = ({ project }) => {
   const {
@@ -39,12 +40,16 @@ const PortfolioItem = ({ project }) => {
 }
 
 class Portfolio extends React.Component {
+
   state = {
-    projects: []
+    projects: [],
+    numPortfolioShow: 6
   }
 
-  componentDidUpdate() {
-    
+  handleSeeMore = () => {
+    this.setState((prevState) => ({
+      numPortfolioShow: prevState.numPortfolioShow + NUM_PORTFOLIO_LOAD
+    }));
   }
 
   componentDidMount() {
@@ -52,12 +57,15 @@ class Portfolio extends React.Component {
       .then(res => res.json())
       .then(data => {
         this.setState(prevState => ({
-          projects: [...prevState.projects, ...data.projects]
+          projects: [...prevState.projects, ...data.projects].reverse()
         }));
       });
   }
 
   render() {
+    const { numPortfolioShow , projects } = this.state;
+    const seeMoreExtraClass = numPortfolioShow < projects.length ? "" : "opacity-none";
+
     return (
       <section className="background-color-light-grey" id="portfolio">
         <div className="container-full row">
@@ -67,15 +75,23 @@ class Portfolio extends React.Component {
           </div>
           <div className="flex-grid">
             {
-              this.state.projects.map((project, index) => (
-                <React.Fragment key={`project-${index}`} >
-                  <PortfolioItem project={project} />
-                </React.Fragment>
-              ))
+              projects.map((project, index) => {
+                if (index < numPortfolioShow) {
+                  return (
+                    <React.Fragment key={`project-${index}`}>
+                      <PortfolioItem project={project} />
+                    </React.Fragment>
+                  )
+                } else {
+                  return null;
+                }
+              })
             }
           </div>
-          <div className="see-more-wrapper text-center margin-bottom-3 margin-top">
-            <span id="btn-see-more" className="btn btn-primary"><strong>See more</strong></span>
+          <div className={`text-center margin-bottom-3 margin-top ${seeMoreExtraClass}`}>
+            <span id="btn-see-more" className="btn btn-primary" onClick={this.handleSeeMore}>
+              <strong>See more</strong>
+            </span>
           </div>
         </div>
       </section>
