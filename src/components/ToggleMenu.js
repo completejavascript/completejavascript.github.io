@@ -2,15 +2,15 @@ import React from 'react';
 import { IconBars } from './Icons';
 import './ToggleMenu.css';
 
-const ToggleMenu = (props) => {
+const ToggleMenu = ({ handleClick, isResponsive, color, bgColor }) => {
   return (
-    <button 
-      onClick={props.handleClick}
-      className={`app-toggle-menu position-fixed border border-2 border-color-blue 
-        transition ${props.isResponsive ? "responsive" : ""}`}
+    <div 
+      onClick={handleClick}
+      className={`app-toggle-menu background-color-${bgColor} position-fixed padding cursor-pointer
+        line-height-reset border-radius transition ${isResponsive ? "responsive" : ""}`}
       >
-        <IconBars color="#2196f3" />
-    </button>
+        <IconBars color={color} />
+    </div>
   )
 }
 
