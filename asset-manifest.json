@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a80896b8.chunk.css",
+    "main.js": "/static/js/main.7ca262a8.chunk.js",
+    "main.js.map": "/static/js/main.7ca262a8.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.161f5fa1.chunk.js": "/static/js/2.161f5fa1.chunk.js",
+    "static/js/2.161f5fa1.chunk.js.map": "/static/js/2.161f5fa1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4b10928e7ec58c9ef9bea90e9eef39f2.js": "/precache-manifest.4b10928e7ec58c9ef9bea90e9eef39f2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a80896b8.chunk.css.map": "/static/css/main.a80896b8.chunk.css.map",
+    "static/media/lampv-profile-completejavascript.com-640.jpg": "/static/media/lampv-profile-completejavascript.com-640.4211771d.jpg"
+  }
+}

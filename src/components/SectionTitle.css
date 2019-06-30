@@ -1,7 +1,0 @@
-.section-title::after {
-  content: "";
-  display: block;
-  border: 0.2rem solid #222;
-  width: 15rem;
-  margin: 0.7rem auto;
-}
