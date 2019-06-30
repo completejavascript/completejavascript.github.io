@@ -1,5 +1,7 @@
 import React from 'react';
 import ProfileImage from '../res/lampv-profile-completejavascript.com-640.jpg';
+import ProfileImagePlaceHolder from '../res/profile-place-holder-sidebar.png';
+import LazyImage from './LazyImage';
 import "./SideBar.css";
 import { 
   IconCodepen, 
@@ -14,10 +16,14 @@ const SideBarTop = () => {
   return (
     <div className="flex-spread">
       <div className="padding margin-2">
-        <img
-          className="image-responsive image-round border border-3 border-color-white"
-          alt="Lam Pham's profile"
+        <LazyImage
+          placeHolder={ProfileImagePlaceHolder}
           src={ProfileImage}
+          width="100%"
+          height="auto"
+          effect="opacity"
+          alt="Lam Pham's profile"
+          extraClass="image-responsive image-round border border-3 border-color-white"
         />
       </div>
       <div className="text-center">
