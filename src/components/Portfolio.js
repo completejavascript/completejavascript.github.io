@@ -25,7 +25,7 @@ const PortfolioItem = ({ project }) => {
         {description}
       </p>
       <div 
-        className="cell-footer background-color-light-grey flex position-absolute bottom-zero
+        className="cell-footer flex align-items-center background-color-light-grey position-absolute bottom-zero
            padding-left padding-right padding-top-half padding-bottom-half"
       >
         <div className="tags text-description text-left">
@@ -73,7 +73,7 @@ class Portfolio extends React.Component {
             <SectionTitle title="Porfolio" />
             <SectionDescription content="Check out my lastest work below." />
           </div>
-          <div className="flex-grid">
+          <div className="flex-grid flex flex-row justify-content-space-around">
             {
               projects.map((project, index) => {
                 if (index < numPortfolioShow) {
