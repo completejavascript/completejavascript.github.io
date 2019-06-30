@@ -1,6 +1,8 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import SectionDescription from './SectionDescription';
+import LazyImage from './LazyImage';
+import PlaceHolder from '../res/profile-place-holder.png';
 import './Portfolio.css';
 
 const DATA_URL = "/data/portfolios.json";
@@ -14,7 +16,13 @@ const PortfolioItem = ({ project }) => {
   return (
     <div className="cell background-color-white margin-bottom-half">
       <a href={`${linkDemo}`}>
-        <img className="image-responsive" alt={`${altImg}`} src={`${linkImg}`}
+        <LazyImage
+          placeHolder={PlaceHolder}
+          src={linkImg}
+          width="100%"
+          height="auto"
+          effect="opacity"
+          alt={altImg}
         />
       </a>
       <h6 className="text-center margin-top">
