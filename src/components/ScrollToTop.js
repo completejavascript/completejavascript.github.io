@@ -32,6 +32,8 @@ class ScrollToTop extends React.Component {
 
   componentDidMount() {
     this.rootElm = this.rootRef.current;
+    this.showOrHideBackToTopButton();
+
     window.addEventListener('scroll', this.handleScroll);
   }
 
