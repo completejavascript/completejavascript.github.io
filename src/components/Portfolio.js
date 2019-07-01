@@ -15,7 +15,7 @@ const PortfolioItem = ({ project }) => {
 
   return (
     <div className="cell background-color-white margin-bottom-half">
-      <a href={`${linkDemo}`}>
+      <a href={`${linkDemo}`} target="_blank" rel="noopener noreferrer">
         <LazyImage
           placeHolder={PlaceHolder}
           src={linkImg}
@@ -26,7 +26,9 @@ const PortfolioItem = ({ project }) => {
         />
       </a>
       <h6 className="text-center margin-top">
-        <strong><a href={`${linkDemo}`}>{title}</a></strong>
+        <strong><a href={`${linkDemo}`} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a></strong>
       </h6>
       <p className="text-description text-center 
         padding-left-half padding-right-half padding-bottom margin-bottom-3 ">
@@ -40,7 +42,7 @@ const PortfolioItem = ({ project }) => {
           <small>{tags}</small>
         </div>
         <div className="how-to text-right">
-          <a href={`${linkWiki}`}><small>GitHub</small></a>
+          <a href={`${linkWiki}`} target="_blank" rel="noopener noreferrer"><small>GitHub</small></a>
         </div>
       </div>
     </div>
