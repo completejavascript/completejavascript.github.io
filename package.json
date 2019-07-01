@@ -2,7 +2,7 @@
   "name": "completejavascript.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://completejavascript.github.io/",
+  "homepage": "https://about.phamvanlam.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
