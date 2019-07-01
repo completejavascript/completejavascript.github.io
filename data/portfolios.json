@@ -125,6 +125,15 @@
       "description": "Unbeatable Tic-Tac-Toe game using React and Minimax Algorithm",
       "tags": "React, Create-react-app, Minimax Algorithm",
       "linkWiki": "https://github.com/completejavascript/tic-tac-toe"
+    },
+    {
+      "linkDemo": "http://about.phamvanlam.com/shiba-css/",
+      "linkImg": "/res/shiba-css.png",
+      "altImg": "Shiba.CSS",
+      "title": "Shiba.CSS",
+      "description": "A simple and lightweight CSS Framework built with Sass",
+      "tags": "SCSS, CSS framework",
+      "linkWiki": "https://github.com/completejavascript/shiba-css"
     }
   ]
 }
