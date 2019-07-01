@@ -131,7 +131,7 @@
       "linkImg": "/res/shiba-css.png",
       "altImg": "Shiba.CSS",
       "title": "Shiba.CSS",
-      "description": "A simple and lightweight CSS Framework built with Sass",
+      "description": "A simple and lightweight CSS Framework built with Sass for building responsive web apps.",
       "tags": "SCSS, CSS framework",
       "linkWiki": "https://github.com/completejavascript/shiba-css"
     }
