@@ -2,7 +2,7 @@ import React from 'react';
 import SectionTitle from './SectionTitle';
 import SectionDescription from './SectionDescription';
 import LazyImage from './LazyImage';
-import PlaceHolder from '../res/profile-place-holder.png';
+import PlaceHolder from '../res/portfolio-place-holder.png';
 import './Portfolio.css';
 
 const DATA_URL = "/data/portfolios.json";
