@@ -2,6 +2,7 @@ import React from 'react';
 import ProfileImage from '../res/lampv-profile-completejavascript.com.jpg';
 import ProfileImagePlaceHolder from '../res/profile-place-holder-sidebar.png';
 import LazyImage from './LazyImage';
+import InternalLink from './InternalLink';
 import "./SideBar.css";
 import { 
   IconCodepen, 
@@ -30,10 +31,10 @@ const SideBarTop = () => {
         <h3 className="text-uppercase color-white"><strong>Lam Pham</strong></h3>
         <p className="color-grey"><small>Software Engineer &amp; Web Developer</small></p>
         <nav>
-          <a className="block" href="#intro">Intro</a>
-          <a className="block" href="#portfolio">Portfolio</a>
-          <a className="block" href="#about">About</a>
-          <a className="block" href="#contact">Contact</a>
+          <InternalLink className="block" href="#intro">Intro</InternalLink>
+          <InternalLink className="block" href="#portfolio">Portfolio</InternalLink>
+          <InternalLink className="block" href="#about">About</InternalLink>
+          <InternalLink className="block" href="#contact">Contact</InternalLink>
         </nav>
       </div>
     </div>

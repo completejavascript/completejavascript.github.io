@@ -1,4 +1,5 @@
 import React from 'react';
+import InternalLink from './InternalLink';
 
 const Intro = () => {
   return (
@@ -9,8 +10,12 @@ const Intro = () => {
           <p className="margin-bottom-3 padding-bottom">Software Engineer, Web Developer, JavaScript Lover &amp;
             Blogger @<a target="_blank" rel="noopener noreferrer" href="https://completejavascript.com/">completejavascript</a></p>
           <div className="margin-bottom-2">
-            <a href="#about" className="btn btn-primary"><strong>About</strong></a>
-            <a href="#contact" className="btn btn-primary-inverse margin-left-half border-2"><strong>Contact</strong></a>
+            <InternalLink className="btn btn-primary" href="#about">
+              <strong>About</strong>
+            </InternalLink>
+            <InternalLink className="btn btn-primary-inverse margin-left-half border-2" href="#contact">
+              <strong>Contact</strong>
+            </InternalLink>
           </div>
         </div>
       </div>
