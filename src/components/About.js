@@ -2,6 +2,7 @@ import React from 'react';
 import { IconDownload } from './Icons';
 import SectionTitle from './SectionTitle';
 import SectionDescription from './SectionDescription';
+import ExternalLink from './ExternalLink';
 
 const SkillBadge = ({ subject, percentage }) => (
   <div className={`border border-default inline-block margin-right-half 
@@ -45,7 +46,7 @@ const About = () => {
             </p>
           <p>
             As you can see, this website is my personal portfolio webpage, which
-              I created while learning Web Development from <a target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org">freeCodeCamp</a> in my spare time.
+              I created while learning Web Development from <ExternalLink href="https://www.freecodecamp.org">freeCodeCamp</ExternalLink> in my spare time.
             And from now on, I am going to share my latest work consistently. Each project consists of its link for preview on Github
               and <strong className="color-red">how-to</strong>, which I explain how I created it.
             In fact, before digging deeper into freeCodeCamp or Web Development, I self-learned JavaScript, HTML5 &amp; CSS3, Bootstrap &amp; jQuery,
@@ -56,18 +57,18 @@ const About = () => {
 
           <p>Besides, I love coding and blogging. I try to code everyday and write blogs to share my experiences to people.
             Here are my blogs (in Vietnamese):
-              <span><a target="_blank" rel="noopener noreferrer" href="https://completejavascript.com"> Complete JavaScript</a></span> <strong>·</strong>
-            <span><a target="_blank" rel="noopener noreferrer" href="http://thuattoan.phamvanlam.com"> Algorithm</a></span> <strong>·</strong>
-            <span><a target="_blank" rel="noopener noreferrer" href="http://phamvanlam.com"> Personal Blog</a></span>.
+              <span><ExternalLink href="https://completejavascript.com"> Complete JavaScript</ExternalLink></span> <strong>·</strong>
+            <span><ExternalLink href="http://thuattoan.phamvanlam.com"> Algorithm</ExternalLink></span> <strong>·</strong>
+            <span><ExternalLink href="http://phamvanlam.com"> Personal Blog</ExternalLink></span>.
             </p>
           <p>
             I enjoy instrument musical. In my free time, I usually play Ukulele. And, I like Street Workout. I am training it four times a week to get fit and healthy.
             Thanks for visiting my website!
             </p>
           <p className="text-center margin-bottom-3">
-            <a target="_blank" rel="noopener noreferrer" href="/cv/LamPham.pdf" className="btn btn-primary" id="download-cv">
+            <ExternalLink href="/cv/LamPham.pdf" className="btn btn-primary">
               <IconDownload color="#FFF" /><strong className="padding-left-half">MY CV</strong>
-            </a>
+            </ExternalLink>
           </p>
         </div>
       </div>

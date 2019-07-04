@@ -3,6 +3,7 @@ import SectionTitle from './SectionTitle';
 import SectionDescription from './SectionDescription';
 import LazyImage from './LazyImage';
 import PlaceHolder from '../res/portfolio-place-holder.png';
+import ExternalLink from './ExternalLink';
 import './Portfolio.css';
 
 const DATA_URL = "/data/portfolios.json";
@@ -15,7 +16,7 @@ const PortfolioItem = ({ project }) => {
 
   return (
     <div className="cell background-color-white margin-bottom-half">
-      <a href={`${linkDemo}`} target="_blank" rel="noopener noreferrer">
+      <ExternalLink href={`${linkDemo}`}>
         <LazyImage
           placeHolder={PlaceHolder}
           src={linkImg}
@@ -24,11 +25,11 @@ const PortfolioItem = ({ project }) => {
           effect="opacity"
           alt={altImg}
         />
-      </a>
+      </ExternalLink>
       <h6 className="text-center margin-top">
-        <strong><a href={`${linkDemo}`} target="_blank" rel="noopener noreferrer">
+        <strong><ExternalLink href={`${linkDemo}`}>
           {title}
-        </a></strong>
+        </ExternalLink></strong>
       </h6>
       <p className="text-description text-center 
         padding-left-half padding-right-half padding-bottom margin-bottom-3 ">
@@ -42,7 +43,7 @@ const PortfolioItem = ({ project }) => {
           <small>{tags}</small>
         </div>
         <div className="how-to text-right">
-          <a href={`${linkWiki}`} target="_blank" rel="noopener noreferrer"><small>GitHub</small></a>
+          <ExternalLink href={`${linkWiki}`}><small>GitHub</small></ExternalLink>
         </div>
       </div>
     </div>

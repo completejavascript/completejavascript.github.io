@@ -3,6 +3,7 @@ import ProfileImage from '../res/lampv-profile-completejavascript.com.jpg';
 import ProfileImagePlaceHolder from '../res/profile-place-holder-sidebar.png';
 import LazyImage from './LazyImage';
 import InternalLink from './InternalLink';
+import ExternalLink from './ExternalLink';
 import "./SideBar.css";
 import { 
   IconCodepen, 
@@ -44,24 +45,29 @@ const SideBarTop = () => {
 const SideBarBottom = () => {
   return (
     <div className="flex-static text-center padding-bottom">
-      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://codepen.io/completejavascript/">
+      <ExternalLink className="margin-right" href="https://codepen.io/completejavascript/">
         <IconCodepen color="#FFF" />
-      </a>
-      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/completejavascript">
+      </ExternalLink>
+
+      <ExternalLink className="margin-right" href="https://www.freecodecamp.org/completejavascript">
         <IconFreeCodeCamp color="#FFF" />
-      </a>
-      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://github.com/completejavascript">
+      </ExternalLink>
+
+      <ExternalLink className="margin-right" href="https://github.com/completejavascript">
         <IconGithub color="#FFF" />
-      </a>
-      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/completejavascript/">
+      </ExternalLink>
+
+      <ExternalLink className="margin-right" href="https://www.facebook.com/completejavascript/">
         <IconFacebook color="#FFF" />
-      </a>
-      <a className="margin-right" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/completejavascript/">
+      </ExternalLink>
+
+      <ExternalLink className="margin-right" href="https://www.linkedin.com/in/completejavascript/">
         <IconLinkedinSquare color="#FFF" />
-      </a>
-      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CmpltJavaScript">
+      </ExternalLink>
+
+      <ExternalLink className="margin-right" href="https://twitter.com/CmpltJavaScript">
         <IconTwitter color="#FFF" />
-      </a>
+      </ExternalLink>
     </div>
   )
 }
