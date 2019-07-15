@@ -4,9 +4,9 @@ import SectionDescription from './SectionDescription';
 import LazyImage from './LazyImage';
 import PlaceHolder from '../res/portfolio-place-holder.png';
 import ExternalLink from './ExternalLink';
+import projects from '../data/projects';
 import './Portfolio.css';
 
-const DATA_URL = "/data/portfolios.json";
 const NUM_PORTFOLIO_LOAD = 4
 
 const PortfolioItem = ({ project }) => {
@@ -53,7 +53,7 @@ const PortfolioItem = ({ project }) => {
 class Portfolio extends React.Component {
 
   state = {
-    projects: [],
+    projects: projects,
     numPortfolioShow: 6
   }
 
@@ -61,16 +61,6 @@ class Portfolio extends React.Component {
     this.setState((prevState) => ({
       numPortfolioShow: prevState.numPortfolioShow + NUM_PORTFOLIO_LOAD
     }));
-  }
-
-  componentDidMount() {
-    fetch(DATA_URL)
-      .then(res => res.json())
-      .then(data => {
-        this.setState(prevState => ({
-          projects: [...prevState.projects, ...data.projects].reverse()
-        }));
-      });
   }
 
   render() {
