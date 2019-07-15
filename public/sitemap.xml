@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+<url>
+<loc>
+https://gb-template.netlify.com/
+</loc>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>
+http://about.phamvanlam.com/shiba-css/
+</loc>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/
@@ -7,6 +24,7 @@ http://about.phamvanlam.com/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/tic-tac-toe/
@@ -14,7 +32,7 @@ http://about.phamvanlam.com/tic-tac-toe/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
-<url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/algorithms-blog/
@@ -22,6 +40,7 @@ http://about.phamvanlam.com/algorithms-blog/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/pomodoro-clock/
@@ -29,6 +48,7 @@ http://about.phamvanlam.com/pomodoro-clock/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/calculator/
@@ -36,6 +56,7 @@ http://about.phamvanlam.com/calculator/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/drum-machine/
@@ -43,6 +64,7 @@ http://about.phamvanlam.com/drum-machine/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/markdown-editor/
@@ -50,6 +72,7 @@ http://about.phamvanlam.com/markdown-editor/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/find-dog-you-love/
@@ -57,6 +80,7 @@ http://about.phamvanlam.com/find-dog-you-love/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/fcc-the-twitchtv-json-api/
@@ -64,6 +88,7 @@ http://about.phamvanlam.com/fcc-the-twitchtv-json-api/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/fcc-wikipedia-viewer/
@@ -71,6 +96,7 @@ http://about.phamvanlam.com/fcc-wikipedia-viewer/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/fcc-local-weather/
@@ -78,6 +104,7 @@ http://about.phamvanlam.com/fcc-local-weather/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/fcc-random-quote-machine/
@@ -85,6 +112,7 @@ http://about.phamvanlam.com/fcc-random-quote-machine/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/fcc-personal-portfolio/
@@ -92,6 +120,7 @@ http://about.phamvanlam.com/fcc-personal-portfolio/
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+
 <url>
 <loc>
 http://about.phamvanlam.com/fcc-tribute-page/
