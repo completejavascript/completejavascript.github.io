@@ -65,7 +65,7 @@ const SideBarBottom = () => {
         <IconLinkedinSquare color="#FFF" />
       </ExternalLink>
 
-      <ExternalLink className="margin-right" href="https://twitter.com/CmpltJavaScript">
+      <ExternalLink href="https://twitter.com/CmpltJavaScript">
         <IconTwitter color="#FFF" />
       </ExternalLink>
     </div>
