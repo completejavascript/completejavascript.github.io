@@ -36,7 +36,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/api-completejavascript-com"
   },
   {
-    linkDemo: "http://thuattoan.phamvanlam.com/",
+    linkDemo: "https://algorithms-blog.netlify.com/",
     linkImg: "/res/algorithms-blog.png",
     altImg: "Algorithms blog",
     title: "Algorithms Blog",
