@@ -27,6 +27,7 @@ const Skills = () => (
     <SkillBadge subject="jQuery" percentage={85} />
     <SkillBadge subject="Mocha &amp; Chai" percentage={65} />
     <SkillBadge subject="MongoDB &amp; Mongoose" percentage={80} />
+    <SkillBadge subject="QT/QML" percentage={85} />
   </div>
 )
 
