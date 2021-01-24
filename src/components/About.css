@@ -1,0 +1,12 @@
+.about-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1000px) {
+  .about-content {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+}

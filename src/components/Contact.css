@@ -1,0 +1,12 @@
+.contact-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1000px) {
+  .contact-container {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
