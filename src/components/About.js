@@ -44,12 +44,12 @@ const About = () => {
           <p>
             Hi, My name is <strong className="color-red">Lam Pham</strong> from
             Vietnam. I am a Software Engineer with a focus on{" "}
-            <strong className="color-red">C/C++</strong>. Beside, I am really
+            <strong className="color-red">C/C++</strong>. Besides, I am really
             passionate about <strong className="color-blue">JavaScript</strong>{" "}
             and
             <strong className="color-blue"> Web Development</strong>. I got a
             bachelor of Electronics and Telecommunication Engineering at Ha Noi
-            Uninversity of Science and Technology (2011 - 2016).
+            University of Science and Technology (2011 - 2016).
           </p>
           <p>
             From 06/2016 - 03/2019, I work for Samsung Vietnam Mobile R&amp;D
@@ -69,16 +69,16 @@ const About = () => {
             explain how I created it. In fact, before digging deeper into
             freeCodeCamp or Web Development, I self-learned JavaScript, HTML5
             &amp; CSS3, Bootstrap &amp; jQuery, AngularJS and NodeJS &amp;
-            ExpressJS... So, below are some informations about my that I
+            ExpressJS... So, below are some information about me that I
             self-evaluate honestly:
           </p>
 
           <Skills />
 
           <p>
-            Besides, I love coding and blogging. I try to code everyday and
-            write blogs to share my experiences to people. Here are my blogs (in
-            Vietnamese):
+            Besides, I love coding and blogging. I try to code every day and
+            write blogs to share my experiences with people. Here are my blogs
+            (in Vietnamese):
             <span>
               <ExternalLink href="https://completejavascript.com">
                 {" "}
