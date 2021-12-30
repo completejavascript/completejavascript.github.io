@@ -1,1 +1,1 @@
-Sitemap: http://about.phamvanlam.com/sitemap.xml
+Sitemap: https://about.phamvanlam.com/sitemap.xml

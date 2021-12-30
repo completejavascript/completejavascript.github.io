@@ -18,7 +18,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/gatsby-blog-template",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/shiba-css/",
+    linkDemo: "https://about.phamvanlam.com/shiba-css/",
     linkImg: "/res/shiba-css.png",
     altImg: "Shiba.CSS",
     title: "Shiba.CSS",
@@ -28,7 +28,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/shiba-css",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/tic-tac-toe/",
+    linkDemo: "https://about.phamvanlam.com/tic-tac-toe/",
     linkImg: "/res/tic-tac-toe-game.png",
     altImg: "Tic-Tac-Toe Game",
     title: "Tic-Tac-Toe Game",
@@ -58,7 +58,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/the-algorithms-blog",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/pomodoro-clock/",
+    linkDemo: "https://about.phamvanlam.com/pomodoro-clock/",
     linkImg: "/res/pomodoro-clock.png",
     altImg: "Pomodoro Clock",
     title: "Pomodoro Clock",
@@ -67,7 +67,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/pomodoro-clock",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/calculator/",
+    linkDemo: "https://about.phamvanlam.com/calculator/",
     linkImg: "/res/calculator.png",
     altImg: "Calculator",
     title: "Standard Calculator",
@@ -77,7 +77,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/calculator",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/drum-machine/",
+    linkDemo: "https://about.phamvanlam.com/drum-machine/",
     linkImg: "/res/drum-machine.png",
     altImg: "Drum machine",
     title: "Drum Machine",
@@ -86,7 +86,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/drum-machine",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/markdown-editor/",
+    linkDemo: "https://about.phamvanlam.com/markdown-editor/",
     linkImg: "/res/markdown-editor.png",
     altImg: "Markdown Editor",
     title: "Markdown Editor",
@@ -96,7 +96,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/markdown-editor",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/find-dog-you-love/",
+    linkDemo: "https://about.phamvanlam.com/find-dog-you-love/",
     linkImg: "/res/find-dog-you-love.png",
     altImg: "Find Dog You Love",
     title: "Find Dog You Love",
@@ -106,7 +106,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/find-dog-you-love",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/fcc-the-twitchtv-json-api/",
+    linkDemo: "https://about.phamvanlam.com/fcc-the-twitchtv-json-api/",
     linkImg: "/res/fcc-the-twitchtv-json-api.png",
     altImg: "Twitchtv JSON API",
     title: "Use the Twitch.tv JSON API",
@@ -116,7 +116,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/fcc-the-twitchtv-json-api",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/fcc-wikipedia-viewer/",
+    linkDemo: "https://about.phamvanlam.com/fcc-wikipedia-viewer/",
     linkImg: "/res/fcc-build-wikipedia-viewer.png",
     altImg: "Wikipedia Viewer",
     title: "Wikipedia Viewer",
@@ -126,7 +126,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/fcc-wikipedia-viewer",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/fcc-local-weather/",
+    linkDemo: "https://about.phamvanlam.com/fcc-local-weather/",
     linkImg: "/res/fcc-show-local-weather.png",
     altImg: "Show local weather",
     title: "Weather App",
@@ -136,7 +136,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/fcc-local-weather",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/fcc-random-quote-machine/",
+    linkDemo: "https://about.phamvanlam.com/fcc-random-quote-machine/",
     linkImg: "/res/fcc-build-random-quote-machine.png",
     altImg: "Build a random quote machine",
     title: "Random Quote Machine",
@@ -146,7 +146,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/fcc-random-quote-machine",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/fcc-personal-portfolio/",
+    linkDemo: "https://about.phamvanlam.com/fcc-personal-portfolio/",
     linkImg: "/res/fcc-build-personal-portfolio.png",
     altImg: "Build a personal portfolio image",
     title: "Personal Portfolio",
@@ -156,7 +156,7 @@ export default [
     linkWiki: "https://github.com/completejavascript/fcc-personal-portfolio",
   },
   {
-    linkDemo: "http://about.phamvanlam.com/fcc-tribute-page/",
+    linkDemo: "https://about.phamvanlam.com/fcc-tribute-page/",
     linkImg: "/res/fcc-build-tribute-page.png",
     altImg: "Build a tribute page project image",
     title: "Tribute Page",

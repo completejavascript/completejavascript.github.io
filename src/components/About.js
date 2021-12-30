@@ -87,14 +87,14 @@ const About = () => {
             </span>{" "}
             <strong>·</strong>
             <span>
-              <ExternalLink href="http://thuattoan.phamvanlam.com">
+              <ExternalLink href="https://thuattoan.phamvanlam.com">
                 {" "}
                 Algorithm
               </ExternalLink>
             </span>{" "}
             <strong>·</strong>
             <span>
-              <ExternalLink href="http://phamvanlam.com">
+              <ExternalLink href="https://phamvanlam.com">
                 {" "}
                 Personal Blog
               </ExternalLink>
