@@ -8,7 +8,7 @@ import "./SideBar.css";
 import {
   IconCodepen,
   IconFacebook,
-  IconFreeCodeCamp,
+  // IconFreeCodeCamp,
   IconGithub,
   IconLinkedinSquare,
   IconTwitter,
@@ -67,12 +67,12 @@ const SideBarBottom = () => {
         <IconCodepen color="#FFF" />
       </ExternalLink>
 
-      <ExternalLink
+      {/* <ExternalLink
         className="margin-right"
         href="https://www.freecodecamp.org/completejavascript"
       >
         <IconFreeCodeCamp color="#FFF" />
-      </ExternalLink>
+      </ExternalLink> */}
 
       <ExternalLink
         className="margin-right"
