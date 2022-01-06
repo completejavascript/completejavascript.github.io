@@ -16,7 +16,8 @@ const Contact = () => {
           <div className="contact-container margin-bottom-3 padding-bottom">
             <form
               method="POST"
-              action="https://formspree.io/completejavascript.super@gmail.com"
+              action="https://formspree.io/f/xpzbwkge"
+              enctype="multipart/form-data"
             >
               <input
                 className="background-color-white"
