@@ -49,7 +49,7 @@ export default [
       "https://github.com/completejavascript/api-completejavascript-com",
   },
   {
-    linkDemo: "https://algorithms-blog.netlify.com/",
+    linkDemo: "https://about.phamvanlam.com/the-algorithms-blog/",
     linkImg: "/res/algorithms-blog.png",
     altImg: "Algorithms blog",
     title: "Algorithms Blog",
