@@ -18,7 +18,7 @@ const Skills = () => (
   <div className="margin-bottom">
     <SkillBadge subject="C/C++" percentage={90} />
     <SkillBadge subject="Algorithm" percentage={90} />
-    <SkillBadge subject="JavaScript" percentage={85} />
+    <SkillBadge subject="JavaScript" percentage={90} />
     <SkillBadge subject="Java &amp; Android" percentage={80} />
     <SkillBadge subject="HTML5 &amp; CSS3" percentage={80} />
     <SkillBadge subject="Git &amp; GitHub" percentage={90} />
@@ -26,11 +26,15 @@ const Skills = () => (
     <SkillBadge subject="Gatsby" percentage={80} />
     <SkillBadge subject="AngularJS" percentage={75} />
     <SkillBadge subject="NodeJS &amp; ExpressJS" percentage={80} />
+    <SkillBadge subject="MongoDB &amp; Mongoose" percentage={80} />
+    <SkillBadge subject="QT/QML" percentage={85} />
+    <SkillBadge subject="Kotlin" percentage={80} />
+    <SkillBadge subject="Ant Design" percentage={80} />
+    <SkillBadge subject="Chakra UI" percentage={80} />
     <SkillBadge subject="Bootstrap" percentage={70} />
     <SkillBadge subject="jQuery" percentage={85} />
     <SkillBadge subject="Mocha &amp; Chai" percentage={65} />
-    <SkillBadge subject="MongoDB &amp; Mongoose" percentage={80} />
-    <SkillBadge subject="QT/QML" percentage={85} />
+    <SkillBadge subject="Jest" percentage={70} />
   </div>
 );
 
@@ -83,6 +87,13 @@ const About = () => {
               <ExternalLink href="https://completejavascript.com">
                 {" "}
                 Complete JavaScript
+              </ExternalLink>
+            </span>{" "}
+            <strong>·</strong>
+            <span>
+              <ExternalLink href="https://tools.completejavascript.com">
+                {" "}
+                Complete Tools
               </ExternalLink>
             </span>{" "}
             <strong>·</strong>
