@@ -1,5 +1,14 @@
 export default [
   {
+    linkDemo: "https://spacex-launch-archives.pages.dev/",
+    linkImg: "/res/spacex-launch-archives.png",
+    altImg: "SpaceX Launch Archives",
+    title: "SpaceX Launch Archives",
+    description: "A React App for tracking all SpaceX Launches in history",
+    tags: "React, TypeScript, GraphQL, Apollo GraphQL, Tailwind CSS",
+    linkWiki: "https://github.com/completejavascript/spacex-launch-archives",
+  },
+  {
     linkDemo: "https://share-yt-vid.netlify.app/",
     linkImg: "/res/share-yt-vid.png",
     altImg: "Share Youtube Video",
