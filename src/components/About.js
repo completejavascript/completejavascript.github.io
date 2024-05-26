@@ -24,7 +24,10 @@ const Skills = () => (
     <SkillBadge subject="HTML5 &amp; CSS3" percentage={80} />
     <SkillBadge subject="Git &amp; GitHub" percentage={90} />
     <SkillBadge subject="ReactJS" percentage={95} />
+    <SkillBadge subject="Refine" percentage={90} />
     <SkillBadge subject="Gatsby" percentage={80} />
+    <SkillBadge subject="NextJS" percentage={85} />
+    <SkillBadge subject="Astro" percentage={80} />
     <SkillBadge subject="AngularJS" percentage={75} />
     <SkillBadge subject="NodeJS &amp; ExpressJS" percentage={80} />
     <SkillBadge subject="MongoDB &amp; Mongoose" percentage={80} />
@@ -56,12 +59,20 @@ const About = () => {
             bachelor of Electronics and Telecommunication Engineering at Ha Noi
             University of Science and Technology (2011 - 2016).
           </p>
-          <p>
-            From 06/2016 - 03/2019, I work for Samsung Vietnam Mobile R&amp;D
-            Center (SVMC) as a C/C++ Software Engineer. And 03/2019 - present, I
-            work for VinSmart as a C/C++, Qt/QML Software Engineer and Front-end
-            web developer with ReactJS.
-          </p>
+          <ul>
+            <li>
+              From 06/2016 - 03/2019, I work for Samsung Vietnam Mobile R&amp;D
+              Center (SVMC) as a C/C++ Software Engineer.
+            </li>
+            <li>
+              From 03/2019 - 10/2021, I work for VinSmart as a C/C++, Qt/QML
+              Software Engineer and Front-end web developer with ReactJS.
+            </li>
+            <li>
+              From 10/2021 - present, I work for Vinhomes as a Senior Front-end
+              developer.
+            </li>
+          </ul>
           <p>
             As you can see, this website is my personal portfolio webpage, which
             I created while learning Web Development from{" "}
