@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { IconArrowUp } from './Icons';
 import './ScrollToTop.css';
 

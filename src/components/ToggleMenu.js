@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { IconBars } from './Icons';
 import './ToggleMenu.css';
 
