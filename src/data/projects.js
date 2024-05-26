@@ -18,7 +18,7 @@ const data = [
     linkWiki: "https://github.com/completejavascript/share-yt-vid",
   },
   {
-    linkDemo: "https://gb-template.netlify.com/",
+    linkDemo: "https://gb-template.netlify.app/",
     linkImg: "/res/gb-blog-template.png",
     altImg: "Gatsby Blog Template",
     title: "Gatsby Blog Template",
