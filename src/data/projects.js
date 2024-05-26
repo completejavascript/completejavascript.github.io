@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     linkDemo: "https://spacex-launch-archives.pages.dev/",
     linkImg: "/res/spacex-launch-archives.png",
@@ -174,3 +174,5 @@ export default [
     linkWiki: "https://github.com/completejavascript/fcc-tribute-page",
   },
 ];
+
+export default data;
