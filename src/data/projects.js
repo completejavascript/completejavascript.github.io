@@ -1,5 +1,15 @@
 const data = [
   {
+    linkDemo: "https://news-hub.pages.dev/",
+    linkImg: "/res/news-hub.png",
+    altImg: "News Hub",
+    title: "News Hub",
+    description:
+      "A Vue App to locate articles and breaking news headlines",
+    tags: "Vue.js, Vue Router, Pinia, Tailwind CSS, Cloudflare Functions, NewsAPI",
+    linkWiki: "https://github.com/completejavascript/news-hub",
+  },
+  {
     linkDemo: "https://spacex-launch-archives.pages.dev/",
     linkImg: "/res/spacex-launch-archives.png",
     altImg: "SpaceX Launch Archives",
