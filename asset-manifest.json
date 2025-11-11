@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa52e2f9.css",
-    "main.js": "/static/js/main.b8ecce17.js",
+    "main.css": "/static/css/main.177f1e57.css",
+    "main.js": "/static/js/main.dc84cfad.js",
     "static/media/lampv-profile-completejavascript.com.jpg": "/static/media/lampv-profile-completejavascript.com.81d0692c1f450b2f9c94.jpg",
-    "index.html": "/index.html",
-    "main.fa52e2f9.css.map": "/static/css/main.fa52e2f9.css.map",
-    "main.b8ecce17.js.map": "/static/js/main.b8ecce17.js.map"
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.fa52e2f9.css",
-    "static/js/main.b8ecce17.js"
+    "static/css/main.177f1e57.css",
+    "static/js/main.dc84cfad.js"
   ]
 }
