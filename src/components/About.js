@@ -6,40 +6,44 @@ import SectionDescription from "./SectionDescription";
 import ExternalLink from "./ExternalLink";
 import "./About.css";
 
-const SkillBadge = ({ subject, percentage }) => (
+const SkillBadge = ({ subject }) => (
   <div
     className={`border border-default inline-block margin-right-half 
-    margin-bottom-half padding-left-half padding-right-half`}
+    margin-bottom-half padding-left-half padding-right-half border-radius`}
   >
-    {subject} {percentage}
+    {subject}
   </div>
 );
 
 const Skills = () => (
   <div className="margin-bottom">
-    <SkillBadge subject="C/C++" percentage={90} />
-    <SkillBadge subject="Algorithm" percentage={90} />
-    <SkillBadge subject="JavaScript" percentage={90} />
-    <SkillBadge subject="Java &amp; Android" percentage={80} />
-    <SkillBadge subject="HTML5 &amp; CSS3" percentage={80} />
-    <SkillBadge subject="Git &amp; GitHub" percentage={90} />
-    <SkillBadge subject="ReactJS" percentage={95} />
-    <SkillBadge subject="Refine" percentage={90} />
-    <SkillBadge subject="Gatsby" percentage={80} />
-    <SkillBadge subject="NextJS" percentage={85} />
-    <SkillBadge subject="Astro" percentage={80} />
-    <SkillBadge subject="AngularJS" percentage={75} />
-    <SkillBadge subject="NodeJS &amp; ExpressJS" percentage={80} />
-    <SkillBadge subject="MongoDB &amp; Mongoose" percentage={80} />
-    <SkillBadge subject="GraphQL" percentage={80} />
-    <SkillBadge subject="QT/QML" percentage={85} />
-    <SkillBadge subject="Kotlin" percentage={80} />
-    <SkillBadge subject="Ant Design" percentage={80} />
-    <SkillBadge subject="Chakra UI" percentage={80} />
-    <SkillBadge subject="Bootstrap" percentage={70} />
-    <SkillBadge subject="jQuery" percentage={85} />
-    <SkillBadge subject="Mocha &amp; Chai" percentage={65} />
-    <SkillBadge subject="Jest" percentage={70} />
+    <SkillBadge subject="C/C++" />
+    <SkillBadge subject="Algorithm" />
+    <SkillBadge subject="JavaScript" />
+    <SkillBadge subject="Java &amp; Android" />
+    <SkillBadge subject="HTML5 &amp; CSS3" />
+    <SkillBadge subject="Git &amp; GitHub" />
+    <SkillBadge subject="ReactJS" />
+    <SkillBadge subject="Refine" />
+    <SkillBadge subject="Gatsby" />
+    <SkillBadge subject="NextJS" />
+    <SkillBadge subject="Astro" />
+    <SkillBadge subject="AngularJS" />
+    <SkillBadge subject="NodeJS &amp; ExpressJS" />
+    <SkillBadge subject="MongoDB &amp; Mongoose" />
+    <SkillBadge subject="Go" />
+    <SkillBadge subject="GraphQL" />
+    <SkillBadge subject="Hasura" />
+    <SkillBadge subject="QT/QML" />
+    <SkillBadge subject="Kotlin" />
+    <SkillBadge subject="Ant Design" />
+    <SkillBadge subject="Chakra UI" />
+    <SkillBadge subject="MUI" />
+    <SkillBadge subject="Mantine" />
+    <SkillBadge subject="Bootstrap" />
+    <SkillBadge subject="jQuery" />
+    <SkillBadge subject="Mocha &amp; Chai" />
+    <SkillBadge subject="Jest" />
   </div>
 );
 
@@ -70,7 +74,11 @@ const About = () => {
               Software Engineer and Front-end web developer with ReactJS.
             </li>
             <li>
-              From 10/2021 - present, I work for Vinhomes as a Senior Front-end
+              From 10/2021 - 04/2025, I work for Vinhomes as a Senior Front-end
+              developer.
+            </li>
+            <li>
+              From 05/2025 - present, I work for JMT technology as a Fullstack
               developer.
             </li>
           </ul>
