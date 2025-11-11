@@ -139,7 +139,7 @@ const About = () => {
             get fit and healthy. Thanks for visiting my website!
           </p>
           <p className="text-center margin-bottom-3">
-            <ExternalLink href="/cv/LamPham.pdf" className="btn btn-primary">
+            <ExternalLink href="https://drive.google.com/file/d/1nLGq_nWaed8LO_OPhMr-mcEkINIgdcIr/view" className="btn btn-primary">
               <IconDownload color="#FFF" />
               <strong className="padding-left-half">MY CV</strong>
             </ExternalLink>
