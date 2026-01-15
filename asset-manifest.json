@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.177f1e57.css",
-    "main.js": "/static/js/main.dc84cfad.js",
+    "main.js": "/static/js/main.df310043.js",
     "static/media/lampv-profile-completejavascript.com.jpg": "/static/media/lampv-profile-completejavascript.com.81d0692c1f450b2f9c94.jpg",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.177f1e57.css",
-    "static/js/main.dc84cfad.js"
+    "static/js/main.df310043.js"
   ]
 }
