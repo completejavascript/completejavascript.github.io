@@ -112,9 +112,9 @@ const About = () => {
             </span>{" "}
             <strong>·</strong>
             <span>
-              <ExternalLink href="https://tools.completejavascript.com">
+              <ExternalLink href="https://toolskitplus.com">
                 {" "}
-                Complete Tools
+                ToolsKit Plus
               </ExternalLink>
             </span>{" "}
             <strong>·</strong>
